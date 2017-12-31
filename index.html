@@ -26,7 +26,7 @@
   <h1>こんなアイデアはいかが？</h1>
   <div id="app">
     <div>
-      <div class="piece" v-for="item in random">{{item}} <a target="_blank" v-bind:href="'https://twitter.com/intent/tweet?hashtags='+encodeURIComponent('ネタ出し！')+'&text=' + encodeURIComponent(item)">[tweet]</a></div>
+      <div class="piece" v-for="item in random">{{item}} <a target="_blank" v-bind:href="'https://twitter.com/intent/tweet?hashtags='+encodeURIComponent('ネタ出し！')+'&text=' + encodeURIComponent(item) + '&url=' + encodeURIComponent(document.location.href)">[tweet]</a></div>
     </div>
  
     <button class="reroll" v-on:click="document.location.reload()">別のネタを見る</button>
