@@ -1,0 +1,41 @@
+/* style sheet */
+.tar{
+  text-align:right;
+}
+.tac{
+  text-align:center;
+}
+
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+html{
+  background-color: #ddf;
+}
+.piece{
+  background-color: #ffe;
+  border: solid 1px;
+  padding: 5px;
+  margin: 3px;
+}
+.reroll{
+  border:solid 1px;
+  width: 100%;
+  padding: 10px;
+}
+.desc{
+  background-color: #ddd;
+  padding: 10px;
+}
