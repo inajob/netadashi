@@ -3,7 +3,7 @@ Hack Dayの過去作品の説明文から新しいネタを生成するWebサー
 
 # demo
 
-https://github.com/inajob/netadashi
+https://inajob.github.io/netadashi/
 
 # data source
 
